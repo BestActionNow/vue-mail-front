@@ -59,19 +59,8 @@
               :endVal="statisticsData.outbox_count"
               :duration="3600"
             ></countTo>
-            <span class="info-item-text">发件</span>
+            <span class="info-item-text">发起交换</span>
             <icon-svg icon-class="b" class="dashboard-icon" />
-          </div>
-          <div class="info-item">
-            <countTo
-              class="info-item-num"
-              ref="countTo3"
-              :startVal="0"
-              :endVal="statisticsData.draft_count"
-              :duration="3800"
-            ></countTo>
-            <span class="info-item-text">草稿</span>
-            <icon-svg icon-class="c" class="dashboard-icon" />
           </div>
         </div>
       </div>
